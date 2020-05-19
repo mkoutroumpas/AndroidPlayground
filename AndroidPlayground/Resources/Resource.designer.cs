@@ -2537,8 +2537,8 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int action0 = 2131230891;
+			// aapt resource value: 0x7f0800ac
+			public const int action0 = 2131230892;
 			
 			// aapt resource value: 0x7f080089
 			public const int action_bar = 2131230857;
@@ -2561,17 +2561,17 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f080067
 			public const int action_bar_title = 2131230823;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int action_container = 2131230888;
+			// aapt resource value: 0x7f0800a9
+			public const int action_container = 2131230889;
 			
 			// aapt resource value: 0x7f08008a
 			public const int action_context_bar = 2131230858;
 			
-			// aapt resource value: 0x7f0800af
-			public const int action_divider = 2131230895;
+			// aapt resource value: 0x7f0800b0
+			public const int action_divider = 2131230896;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int action_image = 2131230889;
+			// aapt resource value: 0x7f0800aa
+			public const int action_image = 2131230890;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2588,14 +2588,14 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f080069
 			public const int action_mode_close_button = 2131230825;
 			
-			// aapt resource value: 0x7f0800be
-			public const int action_settings = 2131230910;
+			// aapt resource value: 0x7f0800bf
+			public const int action_settings = 2131230911;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int action_text = 2131230890;
+			// aapt resource value: 0x7f0800ab
+			public const int action_text = 2131230891;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int actions = 2131230904;
+			// aapt resource value: 0x7f0800b9
+			public const int actions = 2131230905;
 			
 			// aapt resource value: 0x7f08006a
 			public const int activity_chooser_view_content = 2131230826;
@@ -2630,11 +2630,14 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f08003d
 			public const int bottom = 2131230781;
 			
+			// aapt resource value: 0x7f08009a
+			public const int btnTest = 2131230874;
+			
 			// aapt resource value: 0x7f080070
 			public const int buttonPanel = 2131230832;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int cancel_action = 2131230892;
+			// aapt resource value: 0x7f0800ad
+			public const int cancel_action = 2131230893;
 			
 			// aapt resource value: 0x7f080045
 			public const int center = 2131230789;
@@ -2651,8 +2654,8 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f080080
 			public const int checkbox = 2131230848;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int chronometer = 2131230900;
+			// aapt resource value: 0x7f0800b5
+			public const int chronometer = 2131230901;
 			
 			// aapt resource value: 0x7f08004e
 			public const int clip_horizontal = 2131230798;
@@ -2663,14 +2666,14 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f080039
 			public const int collapseActionView = 2131230777;
 			
-			// aapt resource value: 0x7f08009c
-			public const int container = 2131230876;
+			// aapt resource value: 0x7f08009d
+			public const int container = 2131230877;
 			
 			// aapt resource value: 0x7f080073
 			public const int contentPanel = 2131230835;
 			
-			// aapt resource value: 0x7f08009d
-			public const int coordinator = 2131230877;
+			// aapt resource value: 0x7f08009e
+			public const int coordinator = 2131230878;
 			
 			// aapt resource value: 0x7f080099
 			public const int csvCustomShapeView = 2131230873;
@@ -2687,20 +2690,20 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f08006d
 			public const int default_activity_button = 2131230829;
 			
-			// aapt resource value: 0x7f08009f
-			public const int design_bottom_sheet = 2131230879;
+			// aapt resource value: 0x7f0800a0
+			public const int design_bottom_sheet = 2131230880;
+			
+			// aapt resource value: 0x7f0800a7
+			public const int design_menu_item_action_area = 2131230887;
 			
 			// aapt resource value: 0x7f0800a6
-			public const int design_menu_item_action_area = 2131230886;
+			public const int design_menu_item_action_area_stub = 2131230886;
 			
 			// aapt resource value: 0x7f0800a5
-			public const int design_menu_item_action_area_stub = 2131230885;
+			public const int design_menu_item_text = 2131230885;
 			
 			// aapt resource value: 0x7f0800a4
-			public const int design_menu_item_text = 2131230884;
-			
-			// aapt resource value: 0x7f0800a3
-			public const int design_navigation_view = 2131230883;
+			public const int design_navigation_view = 2131230884;
 			
 			// aapt resource value: 0x7f080060
 			public const int dimensions = 2131230816;
@@ -2717,8 +2720,8 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f080030
 			public const int end = 2131230768;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int end_padder = 2131230906;
+			// aapt resource value: 0x7f0800bb
+			public const int end_padder = 2131230907;
 			
 			// aapt resource value: 0x7f08003f
 			public const int enterAlways = 2131230783;
@@ -2765,8 +2768,8 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f08006f
 			public const int icon = 2131230831;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int icon_group = 2131230905;
+			// aapt resource value: 0x7f0800ba
+			public const int icon_group = 2131230906;
 			
 			// aapt resource value: 0x7f08003a
 			public const int ifRoom = 2131230778;
@@ -2774,8 +2777,8 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f08006c
 			public const int image = 2131230828;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int info = 2131230901;
+			// aapt resource value: 0x7f0800b6
+			public const int info = 2131230902;
 			
 			// aapt resource value: 0x7f080057
 			public const int invisible = 2131230807;
@@ -2786,8 +2789,8 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f08009b
-			public const int largeLabel = 2131230875;
+			// aapt resource value: 0x7f08009c
+			public const int largeLabel = 2131230876;
 			
 			// aapt resource value: 0x7f080049
 			public const int left = 2131230793;
@@ -2804,14 +2807,14 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f08006e
 			public const int list_item = 2131230830;
 			
-			// aapt resource value: 0x7f0800bd
-			public const int masked = 2131230909;
+			// aapt resource value: 0x7f0800be
+			public const int masked = 2131230910;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int media_actions = 2131230894;
+			// aapt resource value: 0x7f0800af
+			public const int media_actions = 2131230895;
 			
-			// aapt resource value: 0x7f0800bb
-			public const int message = 2131230907;
+			// aapt resource value: 0x7f0800bc
+			public const int message = 2131230908;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2822,8 +2825,8 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f080028
 			public const int multiply = 2131230760;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int navigation_header_container = 2131230882;
+			// aapt resource value: 0x7f0800a3
+			public const int navigation_header_container = 2131230883;
 			
 			// aapt resource value: 0x7f08003b
 			public const int never = 2131230779;
@@ -2834,14 +2837,14 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f08001e
 			public const int normal = 2131230750;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int notification_background = 2131230903;
+			// aapt resource value: 0x7f0800b8
+			public const int notification_background = 2131230904;
+			
+			// aapt resource value: 0x7f0800b2
+			public const int notification_main_column = 2131230898;
 			
 			// aapt resource value: 0x7f0800b1
-			public const int notification_main_column = 2131230897;
-			
-			// aapt resource value: 0x7f0800b0
-			public const int notification_main_column_container = 2131230896;
+			public const int notification_main_column_container = 2131230897;
 			
 			// aapt resource value: 0x7f08005c
 			public const int packed = 2131230812;
@@ -2876,11 +2879,11 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int right_icon = 2131230902;
+			// aapt resource value: 0x7f0800b7
+			public const int right_icon = 2131230903;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int right_side = 2131230898;
+			// aapt resource value: 0x7f0800b3
+			public const int right_side = 2131230899;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -2954,14 +2957,14 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f080025
 			public const int showTitle = 2131230757;
 			
-			// aapt resource value: 0x7f08009a
-			public const int smallLabel = 2131230874;
+			// aapt resource value: 0x7f08009b
+			public const int smallLabel = 2131230875;
+			
+			// aapt resource value: 0x7f0800a2
+			public const int snackbar_action = 2131230882;
 			
 			// aapt resource value: 0x7f0800a1
-			public const int snackbar_action = 2131230881;
-			
-			// aapt resource value: 0x7f0800a0
-			public const int snackbar_text = 2131230880;
+			public const int snackbar_text = 2131230881;
 			
 			// aapt resource value: 0x7f080043
 			public const int snap = 2131230787;
@@ -2993,8 +2996,8 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f08004b
 			public const int start = 2131230795;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int status_bar_latest_event_content = 2131230893;
+			// aapt resource value: 0x7f0800ae
+			public const int status_bar_latest_event_content = 2131230894;
 			
 			// aapt resource value: 0x7f080083
 			public const int submenuarrow = 2131230851;
@@ -3020,8 +3023,8 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f080076
 			public const int textSpacerNoTitle = 2131230838;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int text_input_password_toggle = 2131230887;
+			// aapt resource value: 0x7f0800a8
+			public const int text_input_password_toggle = 2131230888;
 			
 			// aapt resource value: 0x7f080014
 			public const int textinput_counter = 2131230740;
@@ -3029,8 +3032,8 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f080015
 			public const int textinput_error = 2131230741;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int time = 2131230899;
+			// aapt resource value: 0x7f0800b4
+			public const int time = 2131230900;
 			
 			// aapt resource value: 0x7f08001c
 			public const int title = 2131230748;
@@ -3050,8 +3053,8 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f08007b
 			public const int topPanel = 2131230843;
 			
-			// aapt resource value: 0x7f08009e
-			public const int touch_outside = 2131230878;
+			// aapt resource value: 0x7f08009f
+			public const int touch_outside = 2131230879;
 			
 			// aapt resource value: 0x7f08000f
 			public const int transition_current_scene = 2131230735;
@@ -3080,8 +3083,8 @@ namespace PlaygroundTest
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int visible = 2131230908;
+			// aapt resource value: 0x7f0800bd
+			public const int visible = 2131230909;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
