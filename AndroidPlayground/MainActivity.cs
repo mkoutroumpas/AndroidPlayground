@@ -3,7 +3,6 @@ using Android.Graphics;
 using Android.OS;
 using Android.Support.V4.Content;
 using Android.Support.V7.App;
-using Android.Views;
 using Android.Widget;
 
 namespace PlaygroundTest
@@ -13,6 +12,10 @@ namespace PlaygroundTest
     {
         private Button _btnTest;
 
+        /// <summary>
+        /// OnCreate lifecycle method.
+        /// </summary>
+        /// <param name="savedInstanceState"></param>
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -27,32 +30,25 @@ namespace PlaygroundTest
             csvCustomShapeView.SetBackgroundColor(new Color(ContextCompat.GetColor(this, Resource.Color.white)));
             #endregion
 
+            #region TestButton
             _btnTest = FindViewById<Button>(Resource.Id.btnTest);
             _btnTest.Click += BtnTest_Click;
+            #endregion
         }
 
+        /// <summary>
+        /// Event handler method, used for UI-triggered tests.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnTest_Click(object sender, System.EventArgs e)
         {
             
         }
 
-        public override bool OnCreateOptionsMenu(IMenu menu)
-        {
-            MenuInflater.Inflate(Resource.Menu.menu_main, menu);
-            return true;
-        }
-
-        public override bool OnOptionsItemSelected(IMenuItem item)
-        {
-            int id = item.ItemId;
-            if (id == Resource.Id.action_settings)
-            {
-                return true;
-            }
-
-            return base.OnOptionsItemSelected(item);
-        }
-
+        /// <summary>
+        /// Detach all UI event handlers here.
+        /// </summary>
         protected override void OnDestroy()
         {
             base.OnDestroy();
