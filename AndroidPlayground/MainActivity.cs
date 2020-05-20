@@ -6,6 +6,7 @@ using Android.Support.V7.App;
 using Android.Widget;
 using System;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace PlaygroundTest
 {
@@ -13,6 +14,7 @@ namespace PlaygroundTest
     public class MainActivity : AppCompatActivity
     {
         private Button _btnTestBlocking;
+        private Button _btnTestAddToThreadPool;
 
         /// <summary>
         /// OnCreate lifecycle method.
@@ -32,9 +34,14 @@ namespace PlaygroundTest
             csvCustomShapeView.SetBackgroundColor(new Color(ContextCompat.GetColor(this, Resource.Color.white)));
             #endregion
 
-            #region TestButton
+            #region Test Blocking
             _btnTestBlocking = FindViewById<Button>(Resource.Id.btnTestBlocking);
             _btnTestBlocking.Click += BtnTestBlocking_Click;
+            #endregion
+
+            #region Test add to thread pool
+            _btnTestAddToThreadPool = FindViewById<Button>(Resource.Id.btnTestAddToThreadPool);
+            _btnTestAddToThreadPool.Click += BtnTestBlocking_Click;
             #endregion
         }
 
@@ -46,6 +53,16 @@ namespace PlaygroundTest
         private void BtnTestBlocking_Click(object sender, EventArgs e)
         {
             Helpers.Heavy_Task();
+        }
+
+        /// <summary>
+        /// Use this method to demonstrate the add to threadpool scenario. 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BtnTestAddToThreadPool_Click(object sender, EventArgs e)
+        {
+            Task.Run(() => Helpers.Heavy_Task());
         }
 
         /// <summary>
