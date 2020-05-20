@@ -12,7 +12,7 @@ namespace PlaygroundTest
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        private Button _btnTest;
+        private Button _btnTestBlocking;
 
         /// <summary>
         /// OnCreate lifecycle method.
@@ -33,8 +33,8 @@ namespace PlaygroundTest
             #endregion
 
             #region TestButton
-            _btnTest = FindViewById<Button>(Resource.Id.btnTest);
-            _btnTest.Click += BtnTest_Click;
+            _btnTestBlocking = FindViewById<Button>(Resource.Id.btnTestBlocking);
+            _btnTestBlocking.Click += BtnTestBlocking_Click;
             #endregion
         }
 
@@ -43,7 +43,7 @@ namespace PlaygroundTest
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void BtnTest_Click(object sender, EventArgs e)
+        private void BtnTestBlocking_Click(object sender, EventArgs e)
         {
             Heavy_Task();
         }
@@ -67,9 +67,9 @@ namespace PlaygroundTest
         {
             base.OnDestroy();
 
-            if (_btnTest != null)
+            if (_btnTestBlocking != null)
             {
-                _btnTest.Click -= BtnTest_Click;
+                _btnTestBlocking.Click -= BtnTestBlocking_Click;
             }
         }
     }

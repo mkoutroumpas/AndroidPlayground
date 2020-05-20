@@ -30,12 +30,39 @@
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintBottom_toBottomOf="parent"/>
 
+  <EditText
+    android:id="@+id/etTestTypeIn"
+    android:layout_width="128dp"
+    android:layout_height="wrap_content"
+    android:text="Test text"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/btnTestAddToThreadPool" />
+
   <Button
-    android:id="@+id/btnTest"
-    android:text="Test Button"
+    android:id="@+id/btnTestBlocking"
+    android:text="Blocking Heavy Task"
     android:layout_width="128dp"
     android:layout_height="wrap_content"
     app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/btnTestAddToThreadPool"
+    app:layout_constraintBottom_toBottomOf="parent"/>
+
+  <Button
+    android:id="@+id/btnTestAddToThreadPool"
+    android:text="Test Add Heavy Task to Thread Pool"
+    android:layout_width="128dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toEndOf="@+id/btnTestBlocking"
+    app:layout_constraintEnd_toStartOf="@+id/btnTestAsync"
+    app:layout_constraintBottom_toBottomOf="parent"/>
+
+  <Button
+    android:id="@+id/btnTestAsync"
+    android:text="Test Await Heavy Task"
+    android:layout_width="128dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toEndOf="@+id/btnTestAddToThreadPool"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintBottom_toBottomOf="parent"/>
 
