@@ -39,25 +39,13 @@ namespace PlaygroundTest
         }
 
         /// <summary>
-        /// Event handler method, used for UI-triggered tests.
+        /// Use this method to demonstrate the blocking main thread scenario. 
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void BtnTestBlocking_Click(object sender, EventArgs e)
         {
-            Heavy_Task();
-        }
-
-        private void Heavy_Task()
-        {
-            double count = 0;
-
-            while (true)
-            {
-                Math.Exp(Math.Sqrt(count));
-
-                count++;
-            }
+            Helpers.Heavy_Task();
         }
 
         /// <summary>
