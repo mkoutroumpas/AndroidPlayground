@@ -4,6 +4,8 @@ using Android.OS;
 using Android.Support.V4.Content;
 using Android.Support.V7.App;
 using Android.Widget;
+using System;
+using System.Threading;
 
 namespace PlaygroundTest
 {
@@ -41,9 +43,21 @@ namespace PlaygroundTest
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void BtnTest_Click(object sender, System.EventArgs e)
+        private void BtnTest_Click(object sender, EventArgs e)
         {
-            
+            Heavy_Task();
+        }
+
+        private void Heavy_Task()
+        {
+            double count = 0;
+
+            while (true)
+            {
+                Math.Exp(Math.Sqrt(count));
+
+                count++;
+            }
         }
 
         /// <summary>
