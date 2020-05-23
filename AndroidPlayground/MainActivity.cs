@@ -5,7 +5,6 @@ using Android.Support.V4.Content;
 using Android.Support.V7.App;
 using Android.Widget;
 using System;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace PlaygroundTest
@@ -15,6 +14,7 @@ namespace PlaygroundTest
     {
         private Button _btnTestBlocking;
         private Button _btnTestAddToThreadPool;
+        private Button _btnTestAsync;
 
         /// <summary>
         /// OnCreate lifecycle method.
@@ -43,6 +43,11 @@ namespace PlaygroundTest
             _btnTestAddToThreadPool = FindViewById<Button>(Resource.Id.btnTestAddToThreadPool);
             _btnTestAddToThreadPool.Click += BtnTestBlocking_Click;
             #endregion
+
+            #region Test async
+            _btnTestAsync = FindViewById<Button>(Resource.Id.btnTestAsync);
+            _btnTestAsync.Click += BtnTestAsync_Click;
+            #endregion
         }
 
         /// <summary>
@@ -63,6 +68,20 @@ namespace PlaygroundTest
         private void BtnTestAddToThreadPool_Click(object sender, EventArgs e)
         {
             Task.Run(() => Helpers.Heavy_Task());
+        }
+
+        /// <summary>
+        /// Use this method to demonstrate the async scenario.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private async void BtnTestAsync_Click(object sender, EventArgs e)
+        {
+            var task = Task.Run(() => Helpers.Heavy_Task());
+
+            (sender as Button).Text = "Button clicked ...";
+
+            await task;
         }
 
         /// <summary>
